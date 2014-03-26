@@ -110,6 +110,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0.5em;
 	border-bottom: 2px #333 solid;
 }
+.topbar h1:before {
+	content: "← "
+}
 
 section, header {
     display: block;
@@ -162,7 +165,7 @@ article h2 {
 /** Links **/
 
 a {
-    color: #146894;
+    color: #00546d;
     text-decoration: none;
 }
 
@@ -170,8 +173,9 @@ a:hover {
     text-decoration: underline;
 }
 
+a:link,
 a:visited {
-    color: #441d7b;
+    color: #00546d;
 }
 
 /** Lists **/
@@ -286,4 +290,8 @@ header .topbar {
 
 .right {
 	float: right;
+}
+
+#about {
+	margin-top: 58px;
 }
