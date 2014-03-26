@@ -272,25 +272,6 @@ header {
     margin-right: 3em;
 }
 
-.rss {
-    margin-top: 0.4em;
-    margin-right: 0.4em;
-    float: right;
-}
-
-.idl {
-    margin-top: 0.4em;
-    float: right;
-}
-
-.idl img {
-    height: 6em;
-    margin-top: -0.5em;
-}
-
-.gist .gist-file .gist-data pre {
-    line-height: 20px;
-}
-.gist .gist-file .gist-data .line_numbers span {
-    line-height: 20px;
+.right {
+	float: right;
 }
