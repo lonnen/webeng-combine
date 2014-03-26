@@ -90,11 +90,6 @@ table {
 body {
     font-weight: normal;
     color: #727373;
-    color: #483318;
-    width: 40em;
-    margin: 0 auto 20px;
-    padding: 20px 0 0;
-    border-top: 8px solid;
     line-height: 24px;
     font-family: SourceSansProRegular, Helvetica, sans-serif;
 }
@@ -138,6 +133,8 @@ section h1 {
 
 section {
     margin-bottom: 18px;
+		width: 40em;
+		margin: 0 auto 20px;
 }
 
 article header h1 + .byline {
@@ -200,6 +197,10 @@ pre {
 
 header {
 	width: 100%;
+	margin: 0 0 20px;
+	padding: 5px;
+	border-bottom: 2px #333 solid;
+	background: #eee;
 }
 
 /** Homepage **/
