@@ -1,4 +1,8 @@
-# 01-fizzbuzz
+---
+title: "01-fizzbuzz"
+byline: the classic interview question
+layout: post
+---
 
 FizzBuzz is a classic interview question that will help you get the hang of the formats and expectations of the game. Your solution is expected to have the same name as the puzzle, `01-fizzbuzz` in this case. It will be called with a series of inputs and expected to produce an exact output. Assume the inputs are well formed and use unix line endings.
 
