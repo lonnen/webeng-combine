@@ -208,6 +208,7 @@ pre {
     content: none;
 }
 
+#posts .name,
 #posts time {
     font-family: UbuntuMonoRegular, monospace;
 }
