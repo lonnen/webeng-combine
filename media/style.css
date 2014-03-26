@@ -276,11 +276,10 @@ header .topbar {
 .footer {
     color: rgb(102, 102, 102);
     border-top: 4px solid;
-    margin-top: 2em;
     overflow: hidden;
     padding-top: 0.4em;
 		width: 40em;
-		margin: 0 auto;
+		margin: 2em auto 0;
 }
 
 .contact {
