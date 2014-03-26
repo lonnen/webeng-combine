@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/media/syntax.css">
   </head>
   <body>
-    <header>
-      <h1>Webeng-combine</h1>
+    <header class="topbar">
+<h1>2014 Webeng Combine</h1>
     </header>
     <article>
   <header>
@@ -33,13 +33,13 @@
 
 <p>The next g lines each contain a whitespace-delimited triple of integers of the form</p>
 
-<p>:start :stop :score</p>
+<pre>:start :stop :score</pre>
 
 <p>representing a single gene prediction. No gene predictions will exceed the bounds of the DNA string or be malformed (start is non-negative and no more than stop, stop never exceeds n - 1).</p>
 
 <p>Example Input:</p>
 
-<pre><code>100
+<pre>100
 GAACTATCGCCCGTGCGCATCGCCCGTCCGACCGGCCGTAAGTCTATCTCCCGAGCGGGCGCCCGATCTCAAGTGCACCT
   CACGGCCTCACGACCGTGAG
 8
@@ -50,7 +50,7 @@ GAACTATCGCCCGTGCGCATCGCCCGTCCGACCGGCCGTAAGTCTATCTCCCGAGCGGGCGCCCGATCTCAAGTGCACCT
 45  74  26
 10  28  20
 78  97  23
-0   9   22</pre></code>
+0   9   22</pre>
 
 <h1>Output Specification</h1>
 
@@ -65,11 +65,6 @@ GAACTATCGCCCGTGCGCATCGCCCGTCCGACCGGCCGTAAGTCTATCTCCCGAGCGGGCGCCCGATCTCAAGTGCACCT
 </article>
 
     <section class="footer">
-      <div class="contact">
-        <p>
-          WebEng Combine 2014
-        </p>
-      </div>
       <div class="contact right">
         <p>
           Powered by Davis-CI

@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="/media/syntax.css">
   </head>
   <body>
-    <header>
-      <h1>Webeng-combine</h1>
+    <header class="topbar">
+<h1>2014 Webeng Combine</h1>
     </header>
     <article>
   <header>
     <h1>05-alchemy</h1>
     <div class="byline">
-      
+
     </div>
   </header>
   <p>At Basta Corp Alchemical different research teams focus on different classes of substance -- heavy metals, soft drinks, pharmaceuticals, etc -- and develop a series of catalysts for their class of substance that convert one specific thing into another specific thing essentially for free. All catalysts are one way and don't work in reverse.</p>
@@ -25,19 +25,19 @@
 
 <h1>Input</h1>
 
-<p>You'll be given path to a file. Each line of the file will be of the following format: <code>:machine name :starting_compound :final_compound&gt; :cost</code></p>
+<p>You'll be given path to a file. Each line of the file will be of the following format:</p> <p><code>:machine name :starting_compound :final_compound&gt; :cost</code></p>
 
 <p>Machine names will be a capital M followed by a number. Compound names will be a capital C followed by a number. Finally, the cost will be an integer value representing the one time cost of creating the catalyst.</p>
 
 <p>Example input file:</p>
 
-<pre><code>M0 C0 C1 2627
+<pre>M0 C0 C1 2627
 M1 C1 C2 2165
 M2 C2 C3 2430
 M3 C3 C4 2115
 M4 C4 C5 2926
 M5 C5 C0 2820
-</code></pre>
+</pre>
 
 <h2>Output Specifications</h2>
 
@@ -45,18 +45,13 @@ M5 C5 C0 2820
 
 <p>Example output:</p>
 
-<pre><code>15083
+<pre>15083
 0 1 2 3 4 5
-</code></pre>
+</pre>
 
 </article>
 
     <section class="footer">
-      <div class="contact">
-        <p>
-          WebEng Combine 2014
-        </p>
-      </div>
       <div class="contact right">
         <p>
           Powered by Davis-CI

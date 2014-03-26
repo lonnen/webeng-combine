@@ -89,7 +89,7 @@ table {
 
 body {
     font-weight: normal;
-    color: #727373;
+    color: #333;
     line-height: 24px;
     font-family: SourceSansProRegular, Helvetica, sans-serif;
 }
@@ -103,6 +103,12 @@ body.grid {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     margin: 20px 0;
+}
+
+.topbar h1 {
+	margin: 0 0 1em;
+	padding: 0.5em;
+	border-bottom: 2px #333 solid;
 }
 
 section, header {
@@ -131,7 +137,13 @@ section h1 {
     margin-bottom: 18px;
 }
 
+
 section {
+		width: 40em;
+		margin: 0 auto;
+}
+
+article {
     margin-bottom: 18px;
 		width: 40em;
 		margin: 0 auto 20px;
@@ -195,7 +207,7 @@ pre {
     margin-left: 2em;
 }
 
-header {
+header .topbar {
 	width: 100%;
 	margin: 0 0 20px;
 	padding: 5px;
@@ -258,13 +270,13 @@ header {
 }
 
 .footer {
-    font-size: 80%;
     color: rgb(102, 102, 102);
     border-top: 4px solid;
     margin-top: 2em;
     overflow: hidden;
-    width: 100%;
     padding-top: 0.4em;
+		width: 40em;
+		margin: 0 auto;
 }
 
 .contact {
