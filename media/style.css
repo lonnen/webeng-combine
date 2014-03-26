@@ -198,6 +198,10 @@ pre {
     margin-left: 2em;
 }
 
+header {
+	width: 100%;
+}
+
 /** Homepage **/
 
 #posts ul {
