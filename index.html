@@ -10,18 +10,10 @@
   <section id="about">
   <h1>2014 Webeng Combine</h1>
   <p>A series of programming puzzles for the attendees of the WebEng 2014 work.</p>
-  <p>You're going to be given a git url. Add it as a remote, and whatever you push to that on whatever branch will be taken as a potential answer. If you submit an executable file with a name that matches a puzzle name it will be subjected to a battery of tests. Multiple answers can be pushed at once, but each run has a global timeout of 10 minutes. It is recommended that you use a seperate branch for each puzzle.</p>
-  <p>Use the shebang line to write your answer in something other than bash or binary. Currently we support the following interpreters:</p>
-  <pre>
-    java       1.6.0_27
-    ruby       1.9.3
-    ruby1.8    1.8.7
-    python     2.7.4
-    python3    3.3.1
-    node       0.10.25
-  </pre>
-  <p>as well as whatever binaries you want to compile against an otherwise stock ubuntu:raring machine. Vendor those and any deps you have before submitting.</p>
-</section>
+  <p><a href="https://github.com/lonnen/combine/releases/download/master/challenge.zip">Grab the challenge here.</a></p>
+  <p>Download and unpack it somewhere. Inside you'll find a test harness, some puzzles, and a folder called "reference". The puzzles are detailed here on this website. Write your solutions to the problem, make sure they have the same name as the puzzle, and drop them in <code>/reference</code>. Then execute the testrunner like so:</p>
+  <pre><code>runtests /puzzles /reference</code></pre>
+  <p>Use the shebang line to write your answer in something other than bash or binary.</p>
 <section id="posts">
   <h1>Puzzles</h1>
   <ul>
